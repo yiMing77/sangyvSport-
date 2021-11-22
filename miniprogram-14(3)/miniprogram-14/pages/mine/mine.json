@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-progress": "@vant/weapp/progress/index"
+  },
+  "navigationBarTitleText": "我的"
+}

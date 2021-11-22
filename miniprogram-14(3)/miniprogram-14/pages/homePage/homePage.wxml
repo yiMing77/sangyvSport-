@@ -1,0 +1,123 @@
+<!--pages/homePage/homePage.wxml-->
+<mp-dialog title="订阅提醒" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+        <view>请下滑至“热门课程”，进行课程订阅。</view>
+    </mp-dialog>
+<view class="container">
+  <view class="page">
+    <view class="user-info-container">
+      <view class="avatarImage">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class="sports-info-container">
+        <view class="first-line-container">
+          <view class="nickName">
+            <open-data type="userNickName" lang="zh_CN"></open-data>
+          </view>
+          <!-- <view class="invite-friends-container">
+            <van-icon color="#F6CB79" size="40rpx" name="friends-o" /><text>邀请好友</text>
+          </view> -->
+        </view>
+        <view class="second-line-text">本周已经坚持运动了<text>{{userWeekDay}}</text>天</view>
+        <view class="third-line-container">
+          <view class="sports-days">
+            <van-icon size="30rpx" name="smile-o" />
+            <view>
+              运动天数</view>
+          </view>
+          <view style="font-weight: bold;">4天</view>
+          <view style="font-weight: bold;">7天</view>
+        </view>
+
+        <view class="progress-container">
+          <van-progress percentage="{{user_info.weekDayPercentageData}}" stroke-width="10" pivot-color="#F6CB79"
+            color="linear-gradient(to right, #F6CB79, #FCEBCD)" />
+        </view>
+      </view>
+
+
+    </view>
+    <view class="subscription-container">
+      <view class="title">订阅课程</view>
+      <scroll-view class="course-scroll" scroll-x="true">
+        <block 
+          wx:for="{{user_info.usePerCourseDetail}}" 
+          wx:for-index="idx" 
+          wx:for-item="user_info">
+          <view 
+            bindtap="OjumpToCourse_{{user_info.courseId}}" 
+            wx:if="{{user_info.subscibe_status}}"
+            class="subsciption-course-card-container">
+            <image 
+              class="subsciption-course-card-image" 
+              src="{{user_info.squareImgSrc}}">
+            </image>
+            <view class="subsciption-course-card-info-container">
+              <view class="subsciption-course-card-info-firstLine">{{user_info.title}}</view>
+              <view style="margin-top:-5rpx" class="subsciption-course-card-info-secondLine">
+                已经锻炼\t{{user_info.excersize_times}}\t次</view>
+            </view>
+          </view>
+
+        </block>
+        <view 
+          bindtap="subscribe_toast" 
+          class="subsciption-course-card-container">
+          <view class="plus-container">
+            <van-icon size="80rpx" color="white" name="plus" />
+          </view>
+          <view style="font-size: 24rpx; color: #837e80; display: flex; justify-content: center; width: 200rpx; height: 88rpx; box-sizing: border-box; left: NaNrpx; top: NaNrpx"
+            class="subsciption-course-card-info-container">
+            订阅更多课程
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+
+    <view class="popular-container">
+      <view class="title">热门课程</view>
+      <block wx:for="{{courseInfo}}" wx:key="index" wx:if="{{index < 5}}">
+        <view 
+          data-index="{{ index }}"
+          bindtap="onClickCourseDetailBtn" 
+          class="course-detail-container">
+          <image class="course-image" src="{{item.image_src}}">
+          </image>
+          <view class="course-info-container">
+            <view class="course-info-firstline-container">{{item.title}}</view>
+            <view class="course-info-secondline-container">运动目标：养生保健</view>
+            <view class="course-info-thirdline-container">
+              <view>
+                难度：
+              </view>
+              <view wx:if="{{item.threeStarStatus}}" class="star-container">
+                <van-icon color="#F6CB79" name="star" />
+                <van-icon color="#F6CB79" name="star" />
+                <van-icon color="#F6CB79" name="star" />
+                <van-icon color="#837e80" name="star" />
+                <van-icon color="#837e80" name="star" />
+              </view>
+              <view wx:if="{{item.fourStarStatus}}" class="star-container">
+                <van-icon color="#F6CB79" name="star" />
+                <van-icon color="#F6CB79" name="star" />
+                <van-icon color="#F6CB79" name="star" />
+                <van-icon color="#F6CB79" name="star" />
+                <van-icon color="#837e80" name="star" />
+              </view>
+            </view>
+            <view class="course-info-fourthline-container">
+              <van-button color="#F6CB79" custom-class="van-button" round type="info">点击进入课程</van-button>
+            </view>
+          </view>
+        </view>
+
+      </block>
+    </view>
+
+
+
+
+
+
+
+  </view>
+</view>

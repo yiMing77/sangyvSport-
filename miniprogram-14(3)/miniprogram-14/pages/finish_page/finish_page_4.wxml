@@ -1,0 +1,3 @@
+<!--pages/finish_page/finish_page_4.wxml-->
+<import src="../template/finish_page_Detail.wxml" />
+<template is="finish_page" data="{{...cite}}"></template>

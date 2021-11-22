@@ -1,0 +1,127 @@
+.topImage{
+  width: 100%;
+  height: 400rpx;
+}
+.course-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 490rpx;
+  background-color: white;
+  padding: 1rpx 34rpx;
+  
+  /* padding: 21px 32px; */
+  box-sizing: border-box;
+}
+.title{
+  font-size: 62rpx;
+}
+.title-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+  align-items: flex-start;
+}
+.info-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+ margin-top: 30rpx;
+}
+.second-title{
+  font-size: 26rpx;
+  line-height: 50rpx;
+  color:#837e80;
+}
+.starContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rpx;
+  box-sizing: border-box;
+}
+
+.introduction{
+  margin-top: 20rpx;
+  width: 100%;
+  line-height: 34rpx;
+  font-size: 24rpx;
+  color:#837e80;
+}
+.comment-container{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin-top: 20rpx;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.subscribe-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-container{
+  position: fixed;
+  bottom: 30rpx;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  z-index: 1000;
+}
+.bottom-patch{
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  height: 30rpx;
+  background-color: #fff;
+  z-index: 1000;
+}
+.subscribe-container{
+  margin-left: 68rpx;
+  margin-right: 68rpx;
+}
+.subscribe-word{
+  font-size: 22rpx;
+  color: #F6CB79;
+  font-weight: bold !important
+}
+.comment-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-comment-container{
+  width: 100%;
+  
+ 
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+}
+.userAvator{
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 100%;
+}
+.user-info-show-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.user-info-container{
+  margin-left: 15rpx;
+  font-size: 24rpx;
+}
+.commentContent{
+  font-size: 20rpx;
+  margin-left: 70rpx;
+  margin-top: 20rpx;
+}

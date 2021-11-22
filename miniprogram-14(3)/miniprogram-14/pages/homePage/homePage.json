@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-progress": "@vant/weapp/progress/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-button": "@vant/weapp/button/index",
+    "mp-dialog": "../../miniprogram_npm/weui-miniprogram/dialog/dialog"
+    
+  },
+  "navigationBarTitleText": "首页"
+}

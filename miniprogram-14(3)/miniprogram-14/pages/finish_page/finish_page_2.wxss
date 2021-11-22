@@ -1,0 +1,2 @@
+/* pages/finish_page/finish_page_2.wxss */
+@import "../styles/finish_page_detail.wxss"

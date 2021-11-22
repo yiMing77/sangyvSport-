@@ -1,0 +1,213 @@
+/* pages/homePage/homePage.wxss */
+.page{
+  padding: 52rpx 35rpx;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+  box-sizing: border-box;
+}
+.user-info-container{
+  width: 100%;
+  height: 178rpx;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.nickName{
+  font-size: 32rpx;
+  font-weight: bold;
+  letter-spacing: 6rpx;
+}
+.progress-container{
+  margin-top:15rpx ;
+  width: 100%;
+}
+.first-line-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.second-line-text{
+  margin-top: 10rpx;
+  font-size: 23rpx;
+  line-height: 24rpx;
+  color: #BAB6B8;
+}
+.third-line-container{
+  width: 100%;
+  margin-top: 25rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18rpx;
+  letter-spacing: 3rpx;
+  justify-content: space-between;
+  color: #F6CB79;
+}
+.invite-friends-container{
+  font-size: 24rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 200rpx;
+  color: #BAB6B8;
+  
+}
+.sports-days{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  color: #000;
+}
+.sports-info-container{
+  height: 100%;
+  width:491rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+padding-top: 10rpx;
+padding-bottom: 10rpx;
+  margin-left: 30rpx;
+}
+.avatarImage{
+  
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 100% !important;
+  overflow:hidden;
+}
+
+.title{
+  font-size: 45rpx;
+  font-weight: bold;
+
+}
+.subscription-container{
+  margin-top: 53rpx;
+width: 100%;
+box-sizing: border-box;
+white-space: nowrap;
+
+}
+.popular-container{
+  margin-top: 47rpx;
+  width: 100%;
+
+}
+.plus-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 205rpx;
+  width: 100%;
+  background-color: #E9E8E7;
+}
+.subsciption-course-card-container{
+  display: inline-block;
+  margin-right: 20rpx;
+  width: 200rpx;
+ 
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow:0rpx 15rpx 10rpx -10rpx rgb(85, 83, 83);
+  
+}
+.subsciption-course-card-image{
+  height: 190rpx;
+  width: 100%;
+  
+}
+.subsciption-course-card-info-firstLine{
+  margin-top: 15rpx;
+  font-size: 24rpx;
+}
+.subsciption-course-card-info-secondLine{
+  font-size: 20rpx;
+  color:#837e80;
+  margin-top: 7rpx;
+
+}
+
+.subsciption-course-card-info-container{
+  
+  height: 88rpx;
+  width: 100%;
+  background-color: #fff;
+  margin-top: -20rpx;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+.course-scroll{
+  
+  margin-top: 47rpx;
+  width: 100%;
+  height: 300rpx;
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.course-detail-container{
+  margin-top: 32rpx;
+  width: 100%;
+  height: 190rpx;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.course-image{
+  height: 100%;
+  width: 245rpx;
+  border-radius: 20rpx;
+}
+.course-info-container{
+  height: 100%;
+  width: 438rpx;
+  
+}
+.course-info-firstline-container{
+  margin-left: 24rpx;
+  font-size: 32rpx;
+}
+.course-info-secondline-container{
+  margin-top: 20rpx;
+  margin-left: 24rpx;
+  font-size: 22rpx;
+  color:#837e80;
+}
+.course-info-thirdline-container{
+  margin-top: 20rpx;
+ margin-left: 24rpx;
+  font-size: 22rpx;
+  color:#837e80;
+  display: flex;
+  flex-direction: row;
+  
+}
+.star-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.course-info-fourthline-container{
+margin-left: 240rpx;
+margin-top: -30rpx;
+
+}
+.van-button{
+  width: 190rpx !important;
+  height: 50rpx !important;
+  font-size: 20rpx !important;
+}

@@ -1,0 +1,2 @@
+/* pages/course_video/course_5_video.wxss */
+@import "../styles/video-play.wxss"

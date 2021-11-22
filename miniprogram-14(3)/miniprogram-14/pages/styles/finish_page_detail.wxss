@@ -1,0 +1,147 @@
+/* pages/finish_page/finish_page_1.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  background-color: #F2F2F2;
+}
+.title-image{
+  width: 100%;
+  height: 420rpx;
+  
+
+}
+.add-to-mine{
+  position: absolute;
+  z-index: 10000;
+    width: 0;
+    height: 0;
+    border: 20rpx solid transparent;
+    border-bottom: 15rpx solid white;
+    top: -15rpx;
+    left: 550rpx;
+    
+}
+.add-share-container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10rpx 15rpx;
+  position: absolute;
+  z-index: 10000;
+  border-radius: 20rpx;
+  font-size: 30rpx;
+  
+  height: 50rpx ;
+  top: 20rpx;
+  left: 350rpx;
+background-color: white;
+}
+.image-parent{
+  
+  position: relative;
+  top: -20rpx;
+ 
+}
+.finish_text{
+  position: absolute;
+  font-weight: bold;
+  line-height: 90rpx;
+  font-size: 54rpx;
+  color: #FFF;
+  z-index: 99;
+  top: 55rpx;
+  left: 43rpx;
+ 
+}
+.finish-container{
+  position: relative;
+  width: 100%;
+  height: 220rpx;
+  background-color: #FFF;
+ top: -70rpx;
+ border-radius: 25rpx 25rpx 0rpx 0rpx;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.text{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.number{
+  font-weight: bolder;
+  font-size: 66rpx;
+  color: #F6CB79;
+}
+.feedback-content{
+  color: #000;
+  font-size: 25rpx;
+  letter-spacing:5rpx;  
+  margin-top: 18rpx;
+  font-weight: bold;
+}
+.choose-status-container{
+  width: 100%;
+  height: 320rpx;
+  margin-top: -41rpx;
+  background-color: #fff;
+  padding-top: 40rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+  box-sizing: border-box;
+ 
+}
+.emoji-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emoji-image{
+  width:115rpx;
+  height: 115rpx;
+}
+.second-text{
+  margin-top: 18rpx;
+  font-size: 28rpx;
+  color: #BAB6B8;
+  font-weight: bold;
+}
+.emojies-container{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.emoji-title-text{
+
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.single-emoji-container{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.button-container{
+  width: 100%;
+  height: 130rpx;
+ 
+  position: fixed;
+  bottom: 30rpx;
+}
+.patch{
+  background-color:#F6CB79;
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  height: 30rpx;
+}
+.button{
+  width: 100% !important;
+  height: 100% !important;
+  font-size: 42rpx !important;
+}

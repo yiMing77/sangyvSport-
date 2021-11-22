@@ -1,0 +1,24 @@
+/* pages/teamInfoLoginForm/teamInfoLoginForm.wxss */
+page{
+  background-color:antiquewhite;
+}
+.van-button{
+  width: 700rpx !important;
+  font-size: 40rpx !important;
+  height: 110rpx !important;
+  margin-top: 180rpx;
+}
+.uploader-container{
+  width: 700rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70rpx;
+  margin-bottom: 70rpx;
+}
+.input{
+  width: 400rpx !important;
+  height: 50rpx !important;
+  
+}
+

@@ -1,0 +1,19 @@
+<template name="video">
+<txv-video vid="{{vid}}" playerid="txv1" autoplay="{{true}}" width="750rpx" height="80%" objectFit='cover' bindended="finish" bindtimeupdate='dedbounce'>
+  <view class='txv-video-slot'></view>
+</txv-video>
+<view class="controller-container">
+  <view wx:if="{{button_status}}" bindtap="play"  class="button-container">
+    
+    <van-icon color="rgb(247, 241, 241)" size="90rpx" name="play" />
+ 
+</view>
+  
+  <view wx:else bindtap="pause"  class="button-container">
+    
+      <van-icon color="rgb(247, 241, 241)" size="90rpx" name="pause" />
+   
+  </view>
+  
+</view>
+</template>

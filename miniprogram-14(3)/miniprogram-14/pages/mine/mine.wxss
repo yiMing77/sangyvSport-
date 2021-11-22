@@ -1,0 +1,149 @@
+/* pages/mine/mine.wxss */
+.user-info{
+  width: 100%;
+  height: 237.8rpx;
+  background-color: #ffffff;
+  padding-top:23rpx;
+ 
+}
+.user-avatar{
+  width: 106.1rpx;
+  height: 106.1rpx;
+  border-radius: 50%;
+  overflow:hidden
+}
+.user-info-detail{
+  display: flex;
+  flex-direction: row;
+  margin-left: 36rpx;
+  
+}
+.rank{
+  width: 115rpx;
+  height: 33rpx;
+  border-radius: 16rpx;
+  background-color: #F6CB79;
+  color:#fff;
+  font-size: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 33rpx;
+}
+.user-name{
+  margin-left: 20rpx;
+  margin-top: 26rpx;
+  font-size: 32rpx;
+}
+.user-level{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 36rpx;
+  
+ 
+  width: 100%;
+  padding-top: 11rpx;
+}
+.level-detail{
+  margin-left: 20rpx;
+
+ color: #cccccc;
+}
+
+.slider{
+  width: 500rpx;
+  box-sizing: border-box;
+  
+}
+.exercise-record{
+  margin-top: 47rpx;
+  width: 90%;
+}
+.sportsData-show-container{
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40rpx;
+  margin-bottom: 30rpx;
+}
+.data-show-board{
+  width: 210rpx;
+  height: 190rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx 20rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+}
+.first-line{
+  margin-top: 10rpx;
+  
+}
+.second-line{
+  margin-top: 30rpx;
+}
+.number{
+  color: #F6CB79;
+  font-weight: bolder;
+  font-size: 36rpx;
+}
+.now-level{
+ 
+  color: #F6CB79;
+  margin-left: 36rpx;
+
+}
+.next-level{
+  margin-left: 400rpx;
+  color: #F6CB79;
+}
+.level-number{
+  width: 100%;
+  margin-top: 15rpx;
+}
+.title{
+  font-size: 42rpx;
+  font-weight: bold;
+}
+.achievement-record{
+  width: 90%;
+  margin-top: 10rpx;
+}
+.scroll-view-container{
+  margin-top: 30rpx;
+  width: 100%;
+  height: 290rpx;
+  background-color: #EAEAE9;
+  border-radius: 20rpx;
+  margin-bottom: 40rpx;
+  white-space: nowrap;
+  padding: 30rpx 30rpx;
+  box-sizing: border-box;
+  
+}
+.medal{
+  display: inline-block;
+  margin-left: 20rpx;
+  margin-right: 100rpx;
+  width: 122rpx;
+ height: 185rpx;
+  
+  /* margin-top: -35rpx; */
+}
+.medal-image{
+  width: 100%;
+  height: 122rpx;
+  
+}
+.medal-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cell{
+  border-radius: 30rpx !important;
+}

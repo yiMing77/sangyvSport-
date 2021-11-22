@@ -1,0 +1,70 @@
+<!--pages/memberlist/memberlist.wxml-->
+
+<!-- <mp-dialog show="{{!user_info.sportTeamStatus}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+  <view>你确认加入该运动队嘛</view>
+</mp-dialog> -->
+
+<view class="container">
+  <van-dialog id="van-dialog" />
+  <view class="semi-circle-background"></view>
+  <view class="team-info-card-container">
+
+    <view class="team-info-container">
+      <image class="team-avator" src="{{teamInfo.avatorUrl}}">
+      </image>
+      <view class="team-info-text-container">
+        <view class="team-nickname">{{teamInfo.teamName}}</view>
+        <view class="slogan">{{teamInfo.teamSlogan}}</view>
+      </view>
+    </view>
+    <view><text class="number">{{ time }}</text>\t<text>分钟</text></view>
+    <view class="third-text">总运动时长</view>
+  </view>
+
+  <view class="teamlist">
+    <!-- <view class="team-title">团成员</view>
+    <view class="line"></view> -->
+    <view class="scroll-container">
+      <view class="user-container">
+        <image class="user-avator" src="{{teamInfo.headuserInfo.avatarUrl}}">
+        </image>
+        <view class="user-name">{{teamInfo.headuserInfo.nickName}}</view>
+        <view class="commander">
+          <view>团长</view>
+        </view>
+
+
+        <van-dialog id="van-dialog" />
+      </view>
+      <view class="line"></view>
+      <block wx:for="{{teamInfo.userInfo}}" wx:for-index="idx" wx:for-item="userInfoItem">
+        <view class="user-container">
+          <image class="user-avator" src="{{userInfoItem.avatarUrl}}">
+          </image>
+          <view class="user-name">{{userInfoItem.nickName}}</view>
+
+
+
+
+        </view>
+        <view class="line"></view>
+
+
+      </block>
+      <image></image>
+    
+    </view>
+
+
+
+
+  </view>
+
+  <View class="button-container">
+    <van-button open-type='share' custom-class="van-button" round
+      icon="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/icon/微信.png" type="primary">邀请好友加入
+    </van-button>
+
+  </View>
+  <view class="patch"></view>
+</view>

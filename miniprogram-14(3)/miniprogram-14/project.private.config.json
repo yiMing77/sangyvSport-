@@ -1,0 +1,348 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/completeTraining/completeTraining",
+          "pathName": "pages/completeTraining/completeTraining",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sportsDetails/sportsDetails",
+          "pathName": "pages/sportsDetails/sportsDetails",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fitnessStart/fitnessStart",
+          "pathName": "pages/fitnessStart/fitnessStart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/completeTraining/completeTraining",
+          "pathName": "pages/completeTraining/completeTraining",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fitnessStart/fitnessStart",
+          "pathName": "pages/fitnessStart/fitnessStart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sportsDetails/sportsDetails",
+          "pathName": "pages/sportsDetails/sportsDetails",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fitnessStart/fitnessStart",
+          "pathName": "pages/fitnessStart/fitnessStart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sportsDetails/sportsDetails",
+          "pathName": "pages/sportsDetails/sportsDetails",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fitnessStart/fitnessStart",
+          "pathName": "pages/fitnessStart/fitnessStart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/fitnessStart/fitnessStart",
+          "pathName": "pages/a/a",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/a/a",
+          "pathName": "pages/b/b",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/b/b",
+          "pathName": "pages/b/b",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/homePage/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/tabbarNavigator/tabbarNavigator",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/homePage/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/homePage",
+          "pathName": "pages/index/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sportsDetails/sportsDetails",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/homePage/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/course_1/course_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_1/course_1",
+          "pathName": "pages/course_1/course_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_1/course_1",
+          "pathName": "pages//course_1_video/course_1_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_1_video/course_1_video",
+          "pathName": "pages/course_1_video/course_1_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_1_video",
+          "pathName": "pages/course_video/course_1_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_1_video",
+          "pathName": "pages/course_video/course_2_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_1_video",
+          "pathName": "pages/course_video/course_2_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_2_video",
+          "pathName": "pages/course_video/course_3_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/finish_page/finish_page_1",
+          "pathName": "pages/finish_page/finish_page_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_3_video",
+          "pathName": "pages/course_video/course_4_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_4_video",
+          "pathName": "pages/course_video/course_5_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_1_video",
+          "pathName": "pages/course_video/course_1_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/homePage/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/homePage/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/homePage/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/b/b",
+          "pathName": "pages/b/b",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/a/a",
+          "pathName": "pages/a/a",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/createTeamGuide/createTeamGuide",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/createTeamGuide/createTeamGuide",
+          "pathName": "pages/teamInfoLoginForm/teamInfoLoginForm",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teamInfoLoginForm/teamInfoLoginForm",
+          "pathName": "pages/memberlist/memberlist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/memberlist/memberlist",
+          "pathName": "pages/memberlist/memberlist",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mine/mine",
+          "pathName": "pages/mine/mine",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_1/course_1",
+          "pathName": "pages/course_1/course_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/finish_page/finish_page_1",
+          "pathName": "pages/finish_page/finish_page_1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/teamInfoLoginForm/teamInfoLoginForm",
+          "pathName": "pages/teamInfoLoginForm/teamInfoLoginForm",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_1_video",
+          "pathName": "pages/c/c",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/c/c",
+          "pathName": "pages/c",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/c",
+          "pathName": "pages/c",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_video/course_1_video",
+          "pathName": "pages/course_video/course_1_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/finish_page/finish_page_2",
+          "pathName": "pages/finish_page/finish_page_2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/finish_page/finish_page_2",
+          "pathName": "pages/finish_page/finish_page_3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/finish_page/finish_page_4",
+          "pathName": "pages/finish_page/finish_page_4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/finish_page/finish_page_4",
+          "pathName": "pages/finish_page/finish_page_5",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/homePage/homePage",
+          "pathName": "pages/homePage/homePage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/course_1/course_1",
+          "pathName": "pages/course_1/course_1",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

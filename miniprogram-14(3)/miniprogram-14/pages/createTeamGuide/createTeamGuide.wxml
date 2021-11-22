@@ -1,0 +1,30 @@
+<!--pages/createTeamGuide/createTeamGuide.wxml-->
+<view class="container">
+  <block>
+    <view class="team-info-container">
+      <image class="avator"
+        src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/fake_comment/image001.jpg"></image>
+      <view class="team-text-info-container">
+        <view class="avator-name">我爱吃饭运动队</view>
+        <view class="slogan-text"><van-icon name="comment" />\t<text>生命在于吃饭吃吃吃吃吃</text></view>
+      </view>
+    </view>
+    <view class="team-info-container">
+      <image class="avator"
+        src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/fake_comment/image001.jpg"></image>
+      <view class="team-text-info-container">
+        <view class="avator-name">我爱吃饭运动队</view>
+        <view class="slogan-text"><van-icon name="comment" />\t<text>生命在于吃饭吃吃吃吃吃</text></view>
+      </view>
+    </view>
+  </block>
+  <view class="button-container">
+    <view class="guide-login-text">您还未加入运动团，可选择运动团加入或者自建运动团</view>
+
+    <van-button round custom-class="van-button" color="#F6CB79">登记舞队</van-button>
+
+    <view class="patch"></view>
+  </view>
+
+
+</view>

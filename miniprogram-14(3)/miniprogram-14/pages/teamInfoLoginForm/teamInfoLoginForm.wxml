@@ -1,0 +1,28 @@
+<view class="container">
+
+  <view class="uploader-container">
+    <view>
+      <van-uploader file-list="{{ fileList2 }}" max-count="1" bind:after-read="afterRead" deletable="{{false}}"  bind:delete="deleteImg" deletable="{{ true }}"/>
+      <van-toast id="van-toast" />
+    </view>
+    <view style="font-size:26rpx;margin-top:20rpx">选一张图片来当作团队头像吧！</view>
+  </view>
+  
+
+  <van-cell-group>
+    <van-field input-class="input" label="队名" value="{{ value }}" placeholder="请填写运动队名称" border="{{ true }}"
+      bind:change="onChange_name" />
+    <van-field input-class="input" label="团队口号" value="{{ value }}" placeholder="请取一个团队的口号吧" border="{{ true }}"
+      bind:change="onChange_slogan" />
+  </van-cell-group>
+<!-- <block wx:if="{{!hasUserInfo}}">
+  <van-button bind:click="getUserInfo" custom-class="van-button" round color="#F6CB79">创建</van-button>
+</block>
+<block wx:else>
+  
+</block> -->
+<block>
+  <van-button bind:click="submit" custom-class="van-button" round color="#F6CB79">创建</van-button>
+</block>
+
+</view>

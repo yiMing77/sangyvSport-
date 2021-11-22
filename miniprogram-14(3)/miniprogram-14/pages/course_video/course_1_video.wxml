@@ -1,0 +1,5 @@
+<!--pages/course_1_video/course_1_video.wxml-->
+<import src="../template/video.wxml" />
+
+<template is="video" data="{{...item}}"></template>
+

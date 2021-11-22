@@ -1,0 +1,82 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <view class="user-info" style="width: 750rpx; height: 182rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+    <view class="user-info-detail">
+      <view class="user-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class="user-name">
+        <open-data type="userNickName" lang="zh_CN"></open-data>
+      </view>
+      <view class="rank">
+        运动小将
+      </view>
+    </view>
+    <!-- <view class="level-number">
+      <text class="now-level">lv1</text><text class="next-level">lv2</text>
+    </view>
+    <view class="user-level">
+
+      <view class="slider">
+        <van-progress stroke-width="10" percentage="75" pivot-color="#F6CB79"
+          color="linear-gradient(to right, #F6CB79, #FCEBCD)" />
+      </view>
+      <text class="level-detail">成长进度</text>
+    </view> -->
+  </view>
+  <view class="exercise-record">
+    <view class="title">记录数据</view>
+    <view class="sportsData-show-container">
+      <view class="data-show-board">
+        <view class="first-line">总运动时间</view>
+        <view class="second-line"><text class="number">{{user_info.sportSumTimeLong}}</text>\t分钟</view>
+      </view>
+
+      <view class="data-show-board">
+        <view class="first-line">总运动天数</view>
+        <view class="second-line"><text class="number">{{user_info.sportSumDay}}</text>\t天</view>
+      </view>
+
+      <view class="data-show-board">
+        <view class="first-line">总锻炼次数</view>
+        <view class="second-line"><text class="number">{{user_info.sumSportTimes}}</text>\t次</view>
+      </view>
+
+
+
+    </view>
+    
+  </view>
+  <!-- <view class="achievement-record">
+    <view class="title">成就荣誉</view>
+    <scroll-view class="scroll-view-container" scroll-x="true">
+    <block wx:for="{{medal_list.medal}}"  wx:for-index="idx" wx:for-item="medal">
+      <view class="medal">
+        <image class="medal-image"
+          src="{{medal.medal_url}}"></image>
+        <view class="medal-info-container">
+          <view style="color:#000; font-size:26rpx;">{{medal.honourNickName}}</view>
+          <view style="color:#A49E9A; font-size:24rpx;">{{medal.honourDetail}}</view>
+        </view>
+      </view>
+    </block>
+
+
+    </scroll-view>
+
+  </view> -->
+  <van-cell 
+    wx:if="{{!user_info.sportTeamStatus}}" 
+    bind:click="jumpToCreateSportsTeam" 
+    custom-class="cell" 
+    style="margin-top:100rpx; width: 90%; height: 103rpx; display: block; box-sizing: border-box border-radi" title="我的运动团"
+    is-link />
+    <van-cell wx:if="{{user_info.sportTeamStatus}}" 
+    bind:click="jumpToCreateSportsTeamList" 
+    custom-class="cell" 
+    style="margin-top:100rpx; width: 90%; height: 103rpx; display: block; box-sizing: border-box border-radi" title="我的运动团"
+    is-link />
+
+
+
+</view>

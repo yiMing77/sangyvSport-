@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="page_body"></view>
+  <view>数据库录入操作</view>
+  <button type="primary" bindtap="input">数据库录入</button>
+  <view>数据库查询操作</view>
+  <button type="primary" bindtap="find">数据库查询</button>
+  <button
+  open-type="getUserInfo"
+  bindgetuserinfo="bindGetUserInfo"
+>
+  授权登录
+</button>
+</view>

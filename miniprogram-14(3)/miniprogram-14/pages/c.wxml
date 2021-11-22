@@ -1,0 +1,3 @@
+<!--pages/c.wxml-->
+<text>pages/c.wxml</text>
+<button bindtap="tap">DD</button>

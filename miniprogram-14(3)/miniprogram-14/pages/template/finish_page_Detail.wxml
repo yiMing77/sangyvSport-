@@ -1,0 +1,87 @@
+<!--pages/template/finish_page_Detail.wxml-->
+<template name="finish_page">
+  <view class="finish_text">
+    <view>恭喜您</view>
+    <view>完成了第 {{user_info.excersize_times}} 次训练</view>
+  </view>
+  <view class="add-to-mine"></view>
+  <view class="add-share-container">
+    <van-icon color="#F6CB79" name="smile-o" /><text decode="{{true}}" space="{{true}}">&nbsp;完成课程分享一下~</text></view>
+  <view class="image-parent">
+    <image class="title-image"
+      src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/运动完成页面/finish.png"></image>
+  </view>
+
+
+  <view class="finish-container">
+    <view style="margin-top:30rpx" class="text">{{item.title}}</view>
+    <view>用时\t\t\t<text class="number">{{item.timeLong}}</text>\t\t\t分钟</view>
+
+  </view>
+
+  <view class="choose-status-container">
+    <view class="emoji-title-text">本次训练的感受如何？</view>
+    <view wx:if="{{single_good}}">
+      <view class="single-emoji-container">
+        <view class="emoji-container">
+          <image class="emoji-image"
+            src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/运动完成页面/b10d3aa6d58a0d2aa568e3f7bfb5e83.png">
+          </image>
+          <view class="feedback-content">太棒了,继续坚持!</view>
+        </view>
+      </view>
+    </view>
+    <view wx:if="{{single_easy}}">
+      <view class="single-emoji-container">
+        <view class="emoji-container">
+          <image style="width:145rpx; height:145rpx;" class="emoji-image"
+            src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/运动完成页面/5130d4dda183b493ccccaf1a2175b7d.png">
+          </image>
+          <view style="margin-top:3rpx" class="feedback-content">太棒了,可以挑战更高难度的运动!</view>
+        </view>
+      </view>
+    </view>
+    <view wx:if="{{single_hard}}">
+      <view class="single-emoji-container">
+        <view class="emoji-container">
+          <image class="emoji-image"
+            src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/运动完成页面/070afb4a65ebce320372b70ad0c1a54.png">
+          </image>
+          <view class="feedback-content">别气馁，可以先选择难度较低的运动!</view>
+        </view>
+      </view>
+    </view>
+
+
+
+    <view wx:if="{{secletor_status}}" class="emojies-container">
+      <view bindtap="tapSimple" class="emoji-container">
+        <image class="emoji-image"
+          src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/运动完成页面/b3d87366e4a2803633acfdf6ef48857.png">
+        </image>
+        <view class="second-text">太简单了</view>
+
+      </view>
+      <view bindtap="tapGood" class="emoji-container">
+        <image class="emoji-image"
+          src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/运动完成页面/b10d3aa6d58a0d2aa568e3f7bfb5e83.png">
+        </image>
+        <view class="second-text">太棒了</view>
+
+      </view>
+      <view bindtap="tapDifficult" class="emoji-container">
+        <image class="emoji-image"
+          src="cloud://yiming-0g0pnjw80bcc3577.7969-yiming-0g0pnjw80bcc3577-1305623497/运动完成页面/ed2873d467b0129c84bdf1648831b21.png">
+        </image>
+        <view class="second-text">太难了</view>
+
+      </view>
+    </view>
+
+  </view>
+  <view class="button-container">
+    <van-button bind:click="finish" custom-class="button" color="#F6CB79">完成
+    </van-button>
+  </view>
+  <view class="patch"></view>
+</template>

@@ -1,0 +1,4 @@
+<!--pages/course_5/course_5.wxml-->
+<import src="../template/courseDetail.wxml" />
+
+<template is="courseDetail" data="{{...item}}"></template>

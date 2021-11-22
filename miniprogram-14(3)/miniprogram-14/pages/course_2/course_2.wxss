@@ -1,0 +1,2 @@
+/* pages/course_2/course_2.wxss */
+@import "../styles/course-detail.wxss"

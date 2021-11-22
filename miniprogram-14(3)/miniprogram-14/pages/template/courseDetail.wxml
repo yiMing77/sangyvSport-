@@ -1,0 +1,92 @@
+<!--pages/template/courseDetail.wxml-->
+<template name="courseDetail">
+  <view class="container">
+    <image class="topImage" src="{{courseInfo.image_src}}"></image>
+    <view class="course-info-container">
+      <view class="title-container">
+        <view class="title">{{courseInfo.title}}</view>
+      </view>
+      <view class="info-container">
+        <view class="time-container">
+          <view class="second-title">时间</view>
+          <view class="times-content">每天{{courseInfo.timeLong}}分钟</view>
+        </view>
+        <view class="times-container">
+          <view class="second-title">次数</view>
+          <view class="times-content">{{user_info.excersize_times}} 次</view>
+        </view>
+
+        <view class="star-container">
+          <view class="second-title">难度</view>
+          <view class="starContainer" wx:if="{{courseInfo.threeStarStatus}}">
+            <van-icon color="#F6CB79" name="star" />
+            <van-icon color="#F6CB79" name="star" />
+            <van-icon color="#F6CB79" name="star" />
+            <van-icon color="#837e80" name="star" />
+            <van-icon color="#837e80" name="star" />
+          </view>
+          <view class="starContainer" wx:if="{{courseInfo.fourStarStatus}}">
+            <van-icon color="#F6CB79" name="star" />
+            <van-icon color="#F6CB79" name="star" />
+            <van-icon color="#F6CB79" name="star" />
+            <van-icon color="#F6CB79" name="star" />
+            <van-icon color="#837e80" name="star" />
+          </view>
+        </view>
+      </view>
+      <view class="introduction">
+        {{courseInfo.introductionContent}}
+      </view>
+
+    </view>
+    
+    <view class="comment-container">
+      <view class="second-title" style="color:#000">优选评论</view>
+      <view class="comment-info-container">
+        <block wx:for="{{courseInfo.userComment}}" wx:for-item="comment">
+          <view class="user-comment-container">
+            <view class="user-info-show-container">
+              <image class="userAvator" src="{{comment.avatorSrc}}"></image>
+              <view class="user-info-container">{{comment.nickname}}</view>
+
+            </view>
+            <view class="commentContent">{{comment.commentContent}}</view>
+          </view>
+
+        </block>
+        <view style="height:170rpx" class="user-comment-container"></view>
+
+      </view>
+
+
+    </view>
+
+
+
+
+
+    <view class="button-container">
+
+      <view bindtap="subscribe_tap" class="subscribe-container">
+        <view wx:if="{{!user_info.subscibe_status}}">
+          <van-icon size="50rpx" color="#837e80" name="like" />
+        </view>
+        <view wx:else>
+          <van-icon size="50rpx" color="#F6CB79" name="like" />
+        </view>
+        <view wx:if="{{!user_info.subscibe_status}}" style="color:#BAB6B8" class="subscribe-word">关注</view>
+        <view wx:else style="color:#F6CB79" class="subscribe-word">已关注</view>
+      </view>
+      
+        
+    
+    
+        <van-button bind:click="jumpToCourse_{{courseInfo.courseId}}" color="#F6CB79" round>开始课程</van-button>
+    
+    </view>
+    <view class="bottom-patch"></view>
+
+
+
+  </view>
+</template>

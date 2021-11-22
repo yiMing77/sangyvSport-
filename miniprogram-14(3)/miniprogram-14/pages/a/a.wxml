@@ -1,0 +1,7 @@
+w<view wx:if="{{a}}">3333</view>
+<view wx:else>5555</view>
+<button bindtap="aa"></button>
+<button bindtap="getTime">time</button>
+<van-button wx:if="{{true}}" color="#7232dd" open-type="getUserInfo" bind:getuserinfo="getUserProfile"type="info">信息按钮</van-button>
+
+<view bindtap="wxLogin">微信登录</view>

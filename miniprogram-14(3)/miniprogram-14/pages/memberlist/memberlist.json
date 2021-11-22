@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "mp-dialog": "../../miniprogram_npm/weui-miniprogram/dialog/dialog"
+
+  },
+  "navigationBarTitleText": "成员",
+  "navigationBarBackgroundColor": "#F6CB79",
+  "navigationBarTextStyle": "white"
+}

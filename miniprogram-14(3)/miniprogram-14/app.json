@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/homePage/homePage",
+    "pages/ces/ces",
+    
+    "pages/a/a",
+    "pages/b/b",
+    "pages/mine/mine",
+    "pages/course_1/course_1",
+    "pages/course_video/course_1_video",
+    "pages/course_2/course_2",
+    "pages/course_3/course_3",
+    "pages/course_4/course_4",
+    "pages/course_5/course_5",
+    "pages/course_video/course_2_video",
+    "pages/course_video/course_3_video",
+    "pages/course_video/course_4_video",
+    "pages/course_video/course_5_video",
+    "pages/finish_page/finish_page_1",
+    "pages/finish_page/finish_page_2",
+    "pages/finish_page/finish_page_3",
+    "pages/finish_page/finish_page_4",
+    "pages/finish_page/finish_page_5",
+    "pages/createTeamGuide/createTeamGuide",
+    "pages/teamInfoLoginForm/teamInfoLoginForm",
+    "pages/memberlist/memberlist",
+    "pages/c"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#ddd"
+  },
+  "tabBar": {
+    "color": "#BAB6B8",
+    "selectedColor": "#F6CB79",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "首页",
+        "iconPath": "images/表单.png",
+        "selectedIconPath": "images/表单 (1).png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/我 的 (3).png",
+        "selectedIconPath": "images/我 的 (2).png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.5.2",
+      "provider": "wxa75efa648b60994b"
+    }
+  }
+}
